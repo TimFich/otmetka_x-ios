@@ -1,0 +1,67 @@
+excluded:
+    - Pods
+    - R.generated.swift
+
+disabled_rules:
+- type_body_length
+- file_length
+- opening_brace
+- cyclomatic_complexity
+- identifier_name
+- legacy_constructor
+- unused_optional_binding
+- nesting
+
+line_length:
+    warning: 256
+    error: 512
+
+force_cast: warning # implicitly
+
+force_try:
+  severity: warning # explicitly
+  
+type_name:
+  min_length: 0 # only warning
+  max_length: # warning and error
+    warning: 50
+  allowed_symbols: "_"
+
+identifier_name:
+  min_length: # not possible to disable this partial rule, so set it to zero
+    warning: 0
+    error: 0
+  allowed_symbols: "_"
+
+trailing_whitespace:
+  ignores_empty_lines: true
+  ignores_comments: true
+
+vertical_whitespace:
+  max_empty_lines: 2
+
+opt_in_rules:
+  - explicit_init
+  - first_where
+  - identical_operands
+  - implicit_return
+  - last_where
+  - overridden_super_call
+  - prefer_self_type_over_type_of_self
+  - prefer_zero_over_explicit_init
+  - private_action
+  - private_outlet
+  - prohibited_super_call
+  - redundant_nil_coalescing
+  - sorted_first_last
+  - static_operator
+  - toggle_bool
+  - unneeded_parentheses_in_closure_argument
+  - unused_declaration
+  - unused_import
+  - vertical_parameter_alignment_on_call
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+  - yoda_condition
+
+reporter: "xcode"
