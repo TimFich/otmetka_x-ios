@@ -1,0 +1,4 @@
+// MARK: - Common
+"Common.button.forward" = "Вперед!";
+"Common.searchBar.placeholder" = "Поиск";
+"Common.cancelActionButton" = "Отменить";
