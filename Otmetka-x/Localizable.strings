@@ -1,4 +1,71 @@
 // MARK: - Common
-"Common.button.forward" = "Вперед!";
+"Common.button.forward" = "Продолжить";
 "Common.searchBar.placeholder" = "Поиск";
 "Common.cancelActionButton" = "Отменить";
+"Common.closeActionButton" = "Закрыть";
+"Common.addressSearchTitle" = "Поиск адреса";
+"Common.emptySearchTitle" = "Поиск не дал результатов";
+"Common.emptySearchSubTitle" = "Попробуйте ввести корректное значение";
+
+// MARK: - Welcome Block
+"Welcome.titleLabel" = "Добро пожаловать в Otmetka-X";
+
+"Welcome.button.organization.signin" = "Вход для Организации";
+
+// MARK: - Registration
+"Registration.title" = "Регистрация";
+"Registration.loginTextFieldTitle" = "Введите логин";
+"Registration.loginPlaceholder" = "Логин";
+"Registration.passwordTextFieldTitle" = "Введите пароль";
+"Registration.passwordPlaceholder" = "Пароль";
+"Registration.INNTextFieldTitle" = "Введите ИНН";
+"Registration.INNPlaceholder" = "ИНН";
+"Registration.OGRNTextFieldTitle" = "Введите ОГРН";
+"Registration.OGRNPlaceholder" = "ОГРН";
+"Registration.organizationNameTextFieldTitle" = "Введите название организации";
+"Registration.organizationNamePlaceholder" = "Организация";
+
+// MARK: - Sign In
+"SignIn.title" = "Вход";
+"SignIn.personTitleLabelText" = "Данные пользователя";
+"SignIn.organizationTitleLabelText" = "Данные организации";
+
+// MARK: - Profile
+"Profile.title" = "Профиль";
+
+// MARK: - Buildings Hub
+"BuildingsHub.title" = "Объекты";
+"BuildingsHub.largeTitle" = "Все объекты";
+"BuildingHub.Types.Apartments" = "Многоквартирный дом";
+"BuildingHub.Filters.Apartments" = "Многоквартирные";
+"BuildingHub.Types.Home" = "Частный дом";
+"BuildingHub.Filter.Home" = "Частные";
+"BuildingHub.Types.WareHouse" = "Складское помещение";
+"BuildingHub.Filters.WareHouse" = "Складские";
+"BuildingHub.Types.Unowned" = "Неизвестный";
+"BuildingHub.Filters.Unwned" = "Неизвестные";
+"BuildingHub.Cell.Address" = "Адрес: %@";
+"BuildingHub.Cell.TypeOfBuilding" = "Тип объекта: %@";
+
+// Add building
+"BuildingHub.AddBuilding.Title" = "Добавление нового объекта";
+"BuildingHub.AddBuilding.NameTitle" = "Введите название объекта:";
+"BuildingHub.AddBuilding.NamePlaceholder" = "Название объекта";
+"BuildingHub.AddBuilding.AddressTitle" = "Введите адрес объекта:";
+"BuildingHub.AddBuilding.AddressPlaceholder" = "Адрес объекта";
+"BuildingHub.AddBuilding.TypeTitle" = "Выбирите тип объекта:";
+"BuildingHub.AddBuilding.PreviewTitle" = "Предпросмотр карточки объекта:";
+"BuildingHub.AddBuilding.AddButtonTitle" = "Добавить объект";
+"BuildingHub.AddBuilding.Error" = "Пожалуйста заполните все поля";
+
+// Building Detailed
+"BuildingDetailed.floorPrefix" = "Этаж: %@";
+"BuildingDetailed.roomPrefix" = "Квартира: %@";
+"BuildingDetailed.createrPrefix" = "Создатель: %@";
+
+
+// MARK: - Errors
+"Error.allFieldsNeedToFill" = "Заполните все поля";
+"Error.authTokenError" = "Ошибка авторизации. Пожалуйста войди в аккаунт";
+"Error.internalError" = "Внутренняя ошибка, пожалуйста, попробуй позже";
+"Error.unknownError" = "Неизвестная ошибка";

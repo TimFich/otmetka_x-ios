@@ -10,5 +10,7 @@ import Foundation
 protocol WelcomeInteractorProtocol {}
 
 final class WelcomeInteractor: WelcomeInteractorProtocol {
+    
+    // Dependencies
     weak var presenter: WelcomePresenterProtocol?
 }

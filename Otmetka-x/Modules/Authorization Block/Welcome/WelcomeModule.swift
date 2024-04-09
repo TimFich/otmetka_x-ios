@@ -18,7 +18,8 @@ extension ModulesBuilder {
 enum WelcomeModuleInput {}
 
 enum WelcomeModuleOutput {
-    case didTapSignIn
+    case didTapPersonSignIn
+    case didTapOrganizationSignIn
     case didTapSignUp
 }
 
@@ -30,6 +31,6 @@ struct WelcomeModule {
         interactor.presenter = presenter
         view.presenter = presenter
 
-        return (AnyModule(presenter), presentable: view)
+        return (AnyModule(presenter), view)
     }
 }

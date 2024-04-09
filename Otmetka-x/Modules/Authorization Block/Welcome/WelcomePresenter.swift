@@ -8,7 +8,9 @@
 import Foundation
 
 protocol WelcomePresenterProtocol: AnyObject {
-    
+    func signUpButtonDidTap()
+    func personSigninButtonDidTap()
+    func organizationSigninButtonDidTap()
 }
 
 final class WelcomePresenter: WelcomePresenterProtocol, ModuleProtocol {
@@ -23,5 +25,19 @@ final class WelcomePresenter: WelcomePresenterProtocol, ModuleProtocol {
     // MARK: - Initialization
     init(interactor: WelcomeInteractorProtocol) {
         self.interactor = interactor
+    }
+    
+    // MARK: - Public
+    
+    func signUpButtonDidTap() {
+        output?(.didTapSignUp)
+    }
+    
+    func personSigninButtonDidTap() {
+        output?(.didTapPersonSignIn)
+    }
+    
+    func organizationSigninButtonDidTap() {
+        output?(.didTapOrganizationSignIn)
     }
 }
